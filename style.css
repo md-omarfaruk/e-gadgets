@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.container{
+    margin-bottom: 50px;
+}
+.header-slider{
+    background-image: url(bg-1.png),url(bg-2.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: top center,bottom left;
+}
+.padding-left{
+    padding-left: 30px;
+}
+.carousel-indicators .front-color{
+    height: 5px;
+    background-image: linear-gradient(to left, orange 100%, yellow 0%);
+}
+.buy-now{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.product{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.all-products{
+    color: orange;
+}
+.card{
+    border: none;
+    text-align: center;
+}
+.categories-title{
+    padding: 50px 0;
+    text-align: center;
+}
+.pale-order-image{
+    width: 100%;
+}
+.product-name{
+    margin-top: 25px;
+}
+.categories-products{
+    background-color: #ffffff;
+    width: 250px;
+    height: 272px;
+    padding: 40px 0px;
+    margin-bottom: 40px;
+    border-radius: 22px 5px 45px 5px;
+    box-shadow: 2px 5px 17px gray;
+}
